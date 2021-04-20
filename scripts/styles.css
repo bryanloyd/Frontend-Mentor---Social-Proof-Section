@@ -1,0 +1,99 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Spartan", sans-serif;
+  display: flex;
+  flex-direction: column;
+  width: 375px;
+  height: max-content;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 327px;
+  margin: 75px 0;
+}
+
+.header {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 1;
+  color: #512051;
+  letter-spacing: -1px;
+}
+
+.byline {
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  font-weight: 500;
+  color: #927b90;
+  text-align: center;
+  margin: 25px 0;
+}
+
+.rating__item {
+  width: 327px;
+  height: 78px;
+  background-color: #f7f2f7;
+  border-radius: 10px;
+  margin: 10px 0;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.rating__item img {
+  margin-right: 5px;
+}
+
+.rating__text {
+  color: #512051;
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin-top: 10px;
+}
+
+.card {
+  width: 327px;
+  height: 248px;
+  background-color: #512051;
+  border-radius: 10px;
+  margin: 15px 0;
+}
+
+.name {
+  font-size: 1.3rem;
+  color: #fff;
+  text-align: left;
+  padding: 35px 0 0 35px;
+}
+
+.status {
+  color: #ee69a4;
+  font-size: 1.3rem;
+  padding: 10px 0 0 35px;`
+}
+
+.comment {
+  font-size: 1.3rem;
+  line-height: 2.2rem;
+  color: #fff;
+  text-align: left;
+  padding: 15px 35px;
+  letter-spacing: -0.25px;
+}
