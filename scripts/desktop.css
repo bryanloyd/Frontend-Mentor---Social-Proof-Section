@@ -1,1 +1,87 @@
+body {
+  width: 125vw;
+  background-image: url(/images/bg-pattern-top-desktop.svg),
+    url(/images/bg-pattern-bottom-desktop.svg);
+  background-repeat: no-repeat;
+  background-position: left 20vw top 0vh, left 40vw bottom 0vh;
+}
 
+.container {
+  width: 1440px;
+  display: grid;
+  grid-template-columns: 40% 60%;
+  grid-template-rows: 25% 25% 25% 25%;
+  gap: 0px 0px;
+  grid-template-areas:
+    "header rating"
+    "byline rating"
+    "cards cards"
+    "cards cards";
+}
+
+.header {
+  grid-area: header;
+  margin-right: 50px;
+}
+
+.header p {
+  text-align: left;
+  font-size: 4.8rem;
+  padding-right: 50px;
+  letter-spacing: -2px;
+}
+
+.byline {
+  grid-area: byline;
+  text-align: left;
+  margin-right: 25%;
+}
+
+.rating {
+  grid-area: rating;
+  margin: 0;
+}
+
+.rating__item {
+  width: 445px;
+  height: 56px;
+  margin: 0;
+}
+
+.item2 {
+  margin: 20px 0 0 25px;
+}
+
+.item3 {
+  margin: 20px 0 0 50px;
+}
+
+.rating__text {
+  color: #512051;
+  font-size: 1.3rem;
+  font-weight: 700;
+  display: inline-block;
+  margin: 0 0 0 25px;
+}
+
+.cards {
+  width: 100%;
+  grid-area: cards;
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+}
+
+.card {
+  width: 350;
+  height: 234;
+  margin-right: 50px;
+}
+
+.card2 {
+  margin-top: 30px;
+}
+
+.card3 {
+  margin-top: 50px;
+}
